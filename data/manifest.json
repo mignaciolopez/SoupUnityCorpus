@@ -1,0 +1,404 @@
+{
+  "sources": [
+    {
+      "origin": "project CyberEntity-Packages (Assets)",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Assets",
+      "cs": 2,
+      "md": 0,
+      "chars": 6973
+    },
+    {
+      "origin": "package com.cyberentt.core@file:com.cyberentt.core",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Packages\\com.cyberentt.core",
+      "cs": 3,
+      "md": 4,
+      "chars": 11795
+    },
+    {
+      "origin": "package com.cyberentt.logging@file:com.cyberentt.logging",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Packages\\com.cyberentt.logging",
+      "cs": 15,
+      "md": 4,
+      "chars": 151105
+    },
+    {
+      "origin": "package com.cyberentt.netcode@file:com.cyberentt.netcode",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Packages\\com.cyberentt.netcode",
+      "cs": 29,
+      "md": 5,
+      "chars": 84197
+    },
+    {
+      "origin": "package com.cyberentt.resources@file:com.cyberentt.resources",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Packages\\com.cyberentt.resources",
+      "cs": 5,
+      "md": 1,
+      "chars": 10259
+    },
+    {
+      "origin": "package com.cyberentt.sound@file:com.cyberentt.sound",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Packages\\com.cyberentt.sound",
+      "cs": 13,
+      "md": 1,
+      "chars": 22353
+    },
+    {
+      "origin": "package com.cyberentt.tools@file:com.cyberentt.tools",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Packages\\com.cyberentt.tools",
+      "cs": 86,
+      "md": 2,
+      "chars": 273811
+    },
+    {
+      "origin": "package com.unity.2d.animation@13.0.6",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.2d.animation@cd6c3841e39a",
+      "cs": 257,
+      "md": 38,
+      "chars": 2097320
+    },
+    {
+      "origin": "package com.unity.2d.aseprite@3.0.2",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.2d.aseprite@20edb5643ab5",
+      "cs": 55,
+      "md": 9,
+      "chars": 412152
+    },
+    {
+      "origin": "package com.unity.2d.common@12.0.4",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.2d.common@3e42aeccb30d",
+      "cs": 87,
+      "md": 5,
+      "chars": 534988
+    },
+    {
+      "origin": "package com.unity.2d.pixel-perfect@5.1.1",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.2d.pixel-perfect@09d99455b901",
+      "cs": 14,
+      "md": 6,
+      "chars": 101587
+    },
+    {
+      "origin": "package com.unity.2d.psdimporter@12.0.2",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.2d.psdimporter@f207d91d598d",
+      "cs": 77,
+      "md": 13,
+      "chars": 595802
+    },
+    {
+      "origin": "package com.unity.2d.sprite@1.0.0",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.2d.sprite@d8bb22511404",
+      "cs": 52,
+      "md": 7,
+      "chars": 563542
+    },
+    {
+      "origin": "package com.unity.2d.spriteshape@13.0.0",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.2d.spriteshape@0738bab11647",
+      "cs": 45,
+      "md": 13,
+      "chars": 826452
+    },
+    {
+      "origin": "package com.unity.2d.tilemap@1.0.0",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.2d.tilemap@f666889fd587",
+      "cs": 114,
+      "md": 6,
+      "chars": 940159
+    },
+    {
+      "origin": "package com.unity.2d.tilemap.extras@6.0.3",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.2d.tilemap.extras@58739e072909",
+      "cs": 30,
+      "md": 26,
+      "chars": 468136
+    },
+    {
+      "origin": "package com.unity.2d.tooling@1.0.4",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.2d.tooling@04422e023209",
+      "cs": 54,
+      "md": 12,
+      "chars": 236984
+    },
+    {
+      "origin": "package com.unity.addressables@2.9.1",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.addressables@8460f1c9c927",
+      "cs": 295,
+      "md": 111,
+      "chars": 3637464
+    },
+    {
+      "origin": "package com.unity.ai.inference@2.6.1",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.ai.inference@9a123aee5df7",
+      "cs": 1027,
+      "md": 59,
+      "chars": 10148164
+    },
+    {
+      "origin": "package com.unity.ai.navigation@2.0.14",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.ai.navigation@d0cf77b009bb",
+      "cs": 54,
+      "md": 50,
+      "chars": 515241
+    },
+    {
+      "origin": "package com.unity.burst@1.8.29",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.burst@6bb9aca3ef38",
+      "cs": 77,
+      "md": 43,
+      "chars": 3539307
+    },
+    {
+      "origin": "package com.unity.cinemachine@3.1.7",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.cinemachine@f3f96bcb59af",
+      "cs": 298,
+      "md": 98,
+      "chars": 3072282
+    },
+    {
+      "origin": "package com.unity.collab-proxy@2.12.4",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.collab-proxy@0b1559bcd34e",
+      "cs": 736,
+      "md": 19,
+      "chars": 4414030
+    },
+    {
+      "origin": "package com.unity.collections@2.6.8",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.collections@84e8eb3fc12e",
+      "cs": 172,
+      "md": 21,
+      "chars": 4802955
+    },
+    {
+      "origin": "package com.unity.dt.app-ui@2.1.1",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.dt.app-ui@8ac7e730dd5d",
+      "cs": 370,
+      "md": 41,
+      "chars": 3180194
+    },
+    {
+      "origin": "package com.unity.entities@1.4.8",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.entities@6ce362df365b",
+      "cs": 1422,
+      "md": 182,
+      "chars": 19247301
+    },
+    {
+      "origin": "package com.unity.entities.graphics@1.4.21",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.entities.graphics@4079b47c8361",
+      "cs": 122,
+      "md": 25,
+      "chars": 949190
+    },
+    {
+      "origin": "package com.unity.ext.nunit@2.0.5",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.ext.nunit@d8c07649098d",
+      "cs": 0,
+      "md": 5,
+      "chars": 3443
+    },
+    {
+      "origin": "package com.unity.feature.2d@2.0.2",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.feature.2d@0309d34ea7f2",
+      "cs": 0,
+      "md": 1,
+      "chars": 348
+    },
+    {
+      "origin": "package com.unity.ide.rider@3.0.40",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.ide.rider@e4950c6d131b",
+      "cs": 41,
+      "md": 7,
+      "chars": 151659
+    },
+    {
+      "origin": "package com.unity.ide.visualstudio@2.0.27",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.ide.visualstudio@b5edea5f33f4",
+      "cs": 46,
+      "md": 8,
+      "chars": 263968
+    },
+    {
+      "origin": "package com.unity.inputsystem@1.19.0",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.inputsystem@21a28c3a6c83",
+      "cs": 450,
+      "md": 70,
+      "chars": 7612868
+    },
+    {
+      "origin": "package com.unity.mathematics@1.3.3",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.mathematics@19a9377c4ffa",
+      "cs": 94,
+      "md": 10,
+      "chars": 4464198
+    },
+    {
+      "origin": "package com.unity.multiplayer.center@1.0.1",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.multiplayer.center@f01f4ba8d00a",
+      "cs": 46,
+      "md": 8,
+      "chars": 259438
+    },
+    {
+      "origin": "package com.unity.multiplayer.playmode@2.0.2",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.multiplayer.playmode@d8888f6ed6aa",
+      "cs": 0,
+      "md": 22,
+      "chars": 57716
+    },
+    {
+      "origin": "package com.unity.netcode@1.14.0",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.netcode@6437771c174a",
+      "cs": 290,
+      "md": 98,
+      "chars": 4704335
+    },
+    {
+      "origin": "package com.unity.nuget.mono-cecil@1.11.6",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.nuget.mono-cecil@ecb9724e46ff",
+      "cs": 0,
+      "md": 5,
+      "chars": 4650
+    },
+    {
+      "origin": "package com.unity.nuget.newtonsoft-json@3.2.2",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@4dfd81071c64",
+      "cs": 0,
+      "md": 5,
+      "chars": 10180
+    },
+    {
+      "origin": "package com.unity.physics@1.4.7",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.physics@98d099aa1205",
+      "cs": 259,
+      "md": 44,
+      "chars": 4344261
+    },
+    {
+      "origin": "package com.unity.profiling.core@1.0.3",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.profiling.core@8a49f7027d06",
+      "cs": 8,
+      "md": 9,
+      "chars": 61325
+    },
+    {
+      "origin": "package com.unity.render-pipelines.core@17.3.0",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.render-pipelines.core@731b06833851",
+      "cs": 581,
+      "md": 64,
+      "chars": 7594076
+    },
+    {
+      "origin": "package com.unity.render-pipelines.universal@17.3.0",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.render-pipelines.universal@37e06a5b08b3",
+      "cs": 497,
+      "md": 6,
+      "chars": 5974025
+    },
+    {
+      "origin": "package com.unity.render-pipelines.universal-config@17.0.3",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
+      "cs": 1,
+      "md": 4,
+      "chars": 3137
+    },
+    {
+      "origin": "package com.unity.scriptablebuildpipeline@2.6.1",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.scriptablebuildpipeline@36e3b5898ee2",
+      "cs": 103,
+      "md": 11,
+      "chars": 612133
+    },
+    {
+      "origin": "package com.unity.searcher@4.9.4",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.searcher@d45a78918735",
+      "cs": 13,
+      "md": 4,
+      "chars": 144544
+    },
+    {
+      "origin": "package com.unity.serialization@3.1.3",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.serialization@7725fb70c685",
+      "cs": 85,
+      "md": 4,
+      "chars": 622041
+    },
+    {
+      "origin": "package com.unity.settings-manager@2.1.1",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.settings-manager@0b8638c5ce86",
+      "cs": 18,
+      "md": 4,
+      "chars": 149261
+    },
+    {
+      "origin": "package com.unity.shadergraph@17.3.0",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.shadergraph@fe0f710ccc2d",
+      "cs": 744,
+      "md": 364,
+      "chars": 4423018
+    },
+    {
+      "origin": "package com.unity.sharp-zip-lib@1.4.2",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.sharp-zip-lib@4a6c950d5817",
+      "cs": 5,
+      "md": 7,
+      "chars": 25921
+    },
+    {
+      "origin": "package com.unity.splines@2.9.0",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.splines@e6e1d5900acc",
+      "cs": 137,
+      "md": 40,
+      "chars": 1309565
+    },
+    {
+      "origin": "package com.unity.test-framework@1.6.0",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.test-framework@bd7f943e9647",
+      "cs": 433,
+      "md": 4,
+      "chars": 943421
+    },
+    {
+      "origin": "package com.unity.test-framework.performance@3.5.0",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.test-framework.performance@8b56083ec0f0",
+      "cs": 48,
+      "md": 16,
+      "chars": 237093
+    },
+    {
+      "origin": "package com.unity.timeline@1.8.12",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.timeline@3a22918286f5",
+      "cs": 386,
+      "md": 68,
+      "chars": 2457083
+    },
+    {
+      "origin": "package com.unity.transport@2.7.3",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.transport@56cfdfbf9d44",
+      "cs": 106,
+      "md": 17,
+      "chars": 1225676
+    },
+    {
+      "origin": "package com.unity.ugui@2.0.0",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.ugui@e20f1880fa04",
+      "cs": 242,
+      "md": 149,
+      "chars": 4695998
+    },
+    {
+      "origin": "package com.unity.upm-publishing-tools@0.3.1",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.upm-publishing-tools@96f31e73c437",
+      "cs": 367,
+      "md": 3,
+      "chars": 1056353
+    },
+    {
+      "origin": "package com.unity.visualscripting@1.9.12",
+      "path": "D:\\Projects\\Unity\\CyberEntity-Packages\\Library\\PackageCache\\com.unity.visualscripting@4edfcc09512f",
+      "cs": 1577,
+      "md": 142,
+      "chars": 4831765
+    }
+  ],
+  "missing_packages": []
+}

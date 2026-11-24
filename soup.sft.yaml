@@ -1,0 +1,32 @@
+# soup.sft.yaml — Option A: SFT on top of your pretrained 3B, for RTX 4060 Ti 8 GB
+# Before training:
+#   soup merge --adapter ./output/pretrain --output ./merged
+#   python generate_sft.py --general 400
+#   soup data dedup ./data/sft_generated.jsonl --threshold 0.85 -o ./data/sft_clean.jsonl
+
+base: ./merged                     # Qwen2.5-Coder-3B + your pretrain adapter, merged
+task: sft
+
+data:
+  train: ./data/sft_clean.jsonl    # ChatML rows {"messages": [...]} from generate_sft.py
+  format: chatml
+  val_split: 0.05
+  max_length: 2048                 # Q&A rows are short; if the VRAM check refuses -> 1024
+
+training:
+  epochs: 3                        # use 2 if you end up with > 5000 rows
+  lr: 1e-4
+  warmup_ratio: 0.03
+  quantization: 4bit
+  batch_size: 1
+  gradient_accumulation_steps: 16
+  gradient_checkpointing: full
+  use_cut_ce: true
+  use_liger: true                  # allowed for sft (it was not for pretrain)
+  lora:
+    r: 32
+    alpha: 64
+    dropout: 0.05
+    target_modules: all-linear
+
+output: ./output/sft

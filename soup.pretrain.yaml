@@ -1,0 +1,29 @@
+# soup.pretrain.yaml — preentrenamiento continuo (QLoRA) para RTX 4060 Ti 8 GB
+# Modelo final: entra en la misma GPU como GGUF q8_0 (~3.3 GB) o q4_k_m (~2 GB)
+
+base: Qwen/Qwen2.5-Coder-3B        # base (no -Instruct): pretrain sobre texto plano
+task: pretrain
+
+data:
+  train: ./data/corpus_clean.jsonl # generado con: prepare_unity_corpus.py ... --max-chars 7000
+  format: plaintext                # filas {"text": "..."}
+  max_length: 1024                 # si da OOM -> 1024
+  val_split: 0.02
+
+training:
+  epochs: 1
+  lr: 1e-4                         # LoRA tolera lr más alto que full fine-tune
+  warmup_ratio: 0.03
+  quantization: 4bit               # QLoRA: base en NF4 (~2 GB para 3B)
+  batch_size: 1                    # explícito: "auto" puede sobreestimar en 8 GB
+  gradient_accumulation_steps: 16  # batch efectivo 16
+  gradient_checkpointing: full     # mayor ahorro de activaciones (~30% más lento)
+  use_cut_ce: true                 # cross-entropy por bloques: los logits de Qwen (vocab 151k) son lo que más VRAM ocupa
+  lora:
+    r: 32
+    alpha: 64
+    dropout: 0.05
+    target_modules: all-linear     # aprender un codebase pide adaptar MLP + atención
+  # use_flash_attn: true           # opcional: requiere el paquete flash-attn instalado (difícil en Windows)
+
+output: ./output/pretrain

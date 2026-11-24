@@ -1,0 +1,59 @@
+# ===================== Python / tooling =====================
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ===================== Soup =====================
+# .soup/llama.cpp is a git submodule (see .gitmodules): keep it, ignore anything else Soup puts in .soup/
+.soup/*
+!.soup/llama.cpp
+.soup_merge_tmp*/
+**/.soup_merge_tmp*/
+
+# ===================== Models (GBs, reproducible) =====================
+merged/
+merged_sft/
+output/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+checkpoint-*/
+
+# ===================== Data =====================
+# Reproducible with prepare_unity_corpus.py (corpus*.jsonl is >100 MB: over GitHub's file limit)
+data/corpus.jsonl
+data/corpus_clean.jsonl
+data/docs_flat/
+data/topics.json
+
+# Broken / test / backup files
+data/sft_offline_BROKEN.jsonl
+data/prov.json
+data/sft_test*
+data/*.bak
+
+# Machine-local pipeline run state (run_sft_pipeline.ps1)
+data/pipeline.log
+data/pipeline_state.json
+
+# KEPT on purpose (small, took hours of GPU time to generate):
+#   data/manifest.json
+#   data/sft_generated.jsonl, data/sft_generated.prov.jsonl, data/sft_generated.state.json
+#   data/sft_clean.jsonl
+
+# ===================== Secrets / OS / editors =====================
+.env
+*.env
+.DS_Store
+Thumbs.db
+desktop.ini
+.vs/
+.vscode/
+.idea/
+*.swp
